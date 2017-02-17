@@ -1,0 +1,131 @@
+section{
+  padding-top: 15%;
+  padding-left: 45%;
+  padding-right: 45%;
+  height: 100%
+}
+// .container{
+//   width: 100%;
+//   }
+.outside{
+  position: fixed;
+  width: 60pt;
+  // left: 0;
+  height: 100vh;
+  background: $white;
+  h2{
+    color: $black;
+    width: 22pt;
+    white-space: nowrap;
+    margin-top: 400pt;
+    padding: 30pt
+
+  }
+}
+.hero{
+
+  width: 100%;
+  background: url('../img/hero-bg.png') $black;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: top right;
+  background-blend-mode: multiply;
+  text-align: center;
+  ul{display: flex; }
+  li{
+    // width: 100%;
+    padding: 10pt;
+    align-self: center;
+
+  }
+  h2{
+    margin-top: 25%;
+    margin-bottom: 10%;
+    text-align: center;
+
+
+  }
+
+}
+.hero-content{
+text-align: center;
+  //width: 350pt;
+    #logo{
+      margin-bottom: 66pt;
+      width: 120pt;
+      height:auto;
+      margin: 0 auto;
+    }
+    h2{
+      // float: right;
+      padding-top: 50pt;;
+      text-align: right;
+      line-height: 1.2;
+      text-align: center;
+    }
+    .tag{
+      margin-bottom:2rem;
+      width: 200pt;
+    }
+    .btn:active{
+      opacity: 0.9
+    }
+
+}
+
+.feature  {
+  // min-height: 420pt;
+  margin-top: -100pt;
+  background-color: $magenta;
+  border: 6pt $yellow solid;
+   transform: skewY(5deg);
+
+   .album{
+     background-image: url('../img/annie-art.png');
+     background-repeat: no-repeat;
+     background-size: cover;
+     min-height: 330pt;
+     width: 100%;
+     border: 6pt $white solid;
+     border-radius: 12px;
+     box-shadow: 0 2pt 40pt 0 rgba(0,0,0,0.10);
+     margin-top: -140pt;
+     padding-top: 66pt;
+   }
+  //  .play{
+  //    background-image: url('../img/btn-play.png');
+  //    background-repeat: no-repeat;
+  //    background-size: cover;
+  //    min-height: 20pt;
+  //    width: 20pt;
+  //    }
+  .stream-links{
+    padding: 50pt;
+    img{
+      margin-right: 50pt;
+    }
+  }
+
+}
+.footer {
+    background: $black;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 50px;
+    audio{
+      width: 100%;
+    }
+}
+.delay{
+}
+.delay2{
+  animation-delay: 1s;
+}
+.delay3{
+  animation-delay: 2s;
+}
+.delay4{
+  animation-delay: 2.5s;
+}
